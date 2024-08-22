@@ -35,3 +35,4 @@ datasets
 datasets[audio]
 python-dotenv
 streamlit
+fastapi
