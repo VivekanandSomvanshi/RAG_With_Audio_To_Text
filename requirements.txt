@@ -1,0 +1,37 @@
+# Core libraries
+langchain
+sentence-transformers
+pypdf
+PyPDF2
+tiktoken
+google-generativeai>=0.1.0  # Ensure you get the latest version
+
+# Large language models and vector stores
+openai  # Upgrade later if needed
+groq  # If using Groq for acceleration
+pinecone-client
+chromadb
+
+# Langchain extensions and integrations
+langchain-community
+langchain-pinecone
+langchain-groq  # If using Groq
+
+# Additional dependencies
+huggingface_hub
+
+# Upgrades
+langchain-community>=0.0.1
+openai>=0.27.0
+langchain-pinecone>=0.1.0
+langchain-groq>=0.0.1  # Quiet upgrade
+
+# Transformers and related tools
+transformers>=4.30.0
+einops
+accelerate
+bitsandbytes
+datasets
+datasets[audio]
+python-dotenv
+streamlit
