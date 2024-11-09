@@ -57,6 +57,7 @@ custom_retriever = CustomPineconeRetriever()
 # Define the LLM and QA chain
 prompt_template = """
 Based on the provided information, please answer the user's question accurately. 
+Try to get key insights from output.
 If the information is insufficient or the answer is unknown, simply respond with "I don't know."
 
 Context: {context}
