@@ -54,7 +54,7 @@ class CustomPineconeRetriever(BaseRetriever):
 # Set up the custom retriever
 custom_retriever = CustomPineconeRetriever()
 
-# Define the LLM and QA chain
+# Define the LLM and QA chain Langchain
 prompt_template = """
 Based on the provided information, please answer the user's question accurately. 
 Try to get key insights from output.
